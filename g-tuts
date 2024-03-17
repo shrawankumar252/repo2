@@ -27,3 +27,4 @@ git commands:
 --> git push -u origin branch_name to push the files from local to remote repo
 --> git add --all: Adds all modified and new files to the staging area
 --> git branch <name>: to create new branch
+--> git branch -D <file_name>: to delete specific branch
