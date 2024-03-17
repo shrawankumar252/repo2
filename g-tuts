@@ -1,0 +1,29 @@
+git commands:
+
+-> git init: to initialize the git in the working folder
+-> git status: to know the status of the files ( tracked & untracked)
+
+   untracked files: files just created in the working folder but not yet added to staging area.
+   tracked files: files that are created moved to staging area not yet commited.
+-> there are four areas:
+  1) working area
+  2) staging area
+  3) local repo
+  4) remote repo
+
+-> we have to move files from working area to remote repo
+
+--> git add: to add files from working area to staging area.
+    example: git add file_name
+
+--> git commit: to move files files from staging area to local repo
+    example: git commit -m " "
+   here m indicates message we have say while commiting
+   notes: it is not possible to move single files from staging to local.
+          it move like a bunch if there are 2 files in staging then if we commit then those 2 files will commited
+
+--> git remote add origin url: to add remote repository
+--> git branch: to know branch name
+--> git push -u origin branch_name to push the files from local to remote repo
+--> git add --all: Adds all modified and new files to the staging area
+--> git branch <name>: to create new branch
