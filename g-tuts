@@ -28,3 +28,5 @@ git commands:
 --> git add --all: Adds all modified and new files to the staging area
 --> git branch <name>: to create new branch
 --> git branch -D <file_name>: to delete specific branch
+--> git branch -r: to list all remote branches
+--> git branch -a: to Lists all local and remote branches.
